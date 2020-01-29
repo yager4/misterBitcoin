@@ -17,7 +17,6 @@
   position: sticky;
   z-index: 100;
 
- 
   a {
     color: black;
     font-size: rem(20px);
@@ -55,4 +54,12 @@
   margin-left: 20px;
   color: darkgoldenrod;
 }
+.active {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
 

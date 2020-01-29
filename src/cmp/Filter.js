@@ -11,12 +11,12 @@ export default class Filter extends Component {
         }
         return (
             <div>
-                <Input icon='search' name="name" value={this.props.name}
-                    placeholder="Name" onChange={(ev) => { this.props.onChange(ev.target.name, ev.target.value) }} ></Input>
-                <Input style={style} icon='search' name="email" value={this.props.email}
-                    placeholder="Email" onChange={(ev) => { this.props.onChange(ev.target.name, ev.target.value) }}></Input>
-                <Input icon='search' name="phone" value={this.props.phone}
-                    placeholder="Phone" onChange={(ev) => { this.props.onChange(ev.target.name, ev.target.value) }}></Input>
+                <Input icon='search' name="name" value={this.props.name} placeholder="Name"
+                    onChange={(ev) => { this.props.onChange(ev.target.name, ev.target.value) }} ></Input>
+                <Input style={style} icon='search' name="email" value={this.props.email} placeholder="Email"
+                    onChange={(ev) => { this.props.onChange(ev.target.name, ev.target.value) }}></Input>
+                <Input icon='search' name="phone" value={this.props.phone} placeholder="Phone"
+                    onChange={(ev) => { this.props.onChange(ev.target.name, ev.target.value) }}></Input>
             </div>
         )
     }
