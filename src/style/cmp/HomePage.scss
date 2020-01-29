@@ -1,4 +1,19 @@
 .container-homePage{
     margin: 0 auto;
     width: 980px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-context{
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f58584f;
+    border-radius: 30px;
+    margin-top: 51px;
+    padding: 104px;
 }

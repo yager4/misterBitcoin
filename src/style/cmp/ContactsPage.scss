@@ -1,0 +1,45 @@
+.container-contextsPage {
+  margin: 0 auto;
+  width: 1149px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-items: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.container-preview {
+  background-color: gray;
+  border-radius: 30px;
+  padding: 20px;
+  width: 323px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 10px;
+}
+
+.container-ContectDetaile {
+  margin: 0 auto;
+  width: 980px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #80808069;
+  border-radius: 35px;
+}
+.not-found ,.loading  {
+  display: flex;
+  justify-content: center;
+  margin-top: 104px;
+  transition:  margin-top 2s;
+
+
+  font-size: 207px;
+
+
+}
+.not-found > * {
+  font-size: 207px;
+}
+
